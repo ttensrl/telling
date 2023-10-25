@@ -1,0 +1,42 @@
+{
+    "name": "ttensrl/telling",
+    "description": "A description for telling.",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Stefano Pimpolari",
+            "email": "stefano.pimpolari@tten.it"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TtenSrl\\Telling\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TtenSrl\\Telling\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TtenSrl\\Telling\\TellingServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
