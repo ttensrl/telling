@@ -76,5 +76,5 @@ return [
     |
     |
     */
-    'version_model' => \TtenSrl\Telling\Models\Version::class
+    'version_model' => \LaravelBricks\Telling\Models\Version::class
 ];

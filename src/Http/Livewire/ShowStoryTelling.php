@@ -29,9 +29,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-namespace TtenSrl\Telling\Http\Livewire;
+namespace LaravelBricks\Telling\Http\Livewire;
 
-use TtenSrl\Telling\Classes\HistoricizedFields;
+use LaravelBricks\Telling\Classes\HistoricizedFields;
 use Livewire\Component;
 
 class ShowStoryTelling extends Component

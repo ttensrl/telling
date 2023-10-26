@@ -29,15 +29,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-namespace TtenSrl\Telling\Traits;
+namespace LaravelBricks\Telling\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Facades\Auth;
-use TtenSrl\Telling\Models\Version;
+use LaravelBricks\Telling\Models\Version;
 
 /**
  * Class Version
- * @package TtenSrl\Telling
+ * @package LaravelBricks\Telling
  */
 trait HasStoryTelling
 {

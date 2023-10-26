@@ -4,7 +4,7 @@
          colors="true"
 >
     <testsuites>
-        <testsuite name="ttensrl/telling Test Suite">
+        <testsuite name="laravel-bricks/telling Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

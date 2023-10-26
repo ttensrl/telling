@@ -1,5 +1,5 @@
 {
-    "name": "ttensrl/telling",
+    "name": "laravel-bricks/telling",
     "description": "A description for telling.",
     "type": "package",
     "license": "MIT",
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TtenSrl\\Telling\\": "./src"
+            "LaravelBricks\\Telling\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TtenSrl\\Telling\\Tests\\": "tests"
+            "LaravelBricks\\Telling\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TtenSrl\\Telling\\TellingServiceProvider"
+                "LaravelBricks\\Telling\\TellingServiceProvider"
             ]
         }
     },

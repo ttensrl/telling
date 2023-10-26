@@ -1,6 +1,6 @@
 <?php
 
-namespace TtenSrl\Telling\Tests;
+namespace LaravelBricks\Telling\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -16,7 +16,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \TtenSrl\Telling\TellingServiceProvider::class,
+            \LaravelBricks\Telling\TellingServiceProvider::class,
         ];
     }
 

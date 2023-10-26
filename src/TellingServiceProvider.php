@@ -1,11 +1,11 @@
 <?php
 
-namespace TtenSrl\Telling;
+namespace LaravelBricks\Telling;
 
 
-use TtenSrl\Telling\Http\Livewire\ShowDiffVersion;
-use TtenSrl\Telling\Http\Livewire\ShowStoryTelling;
-use TtenSrl\Telling\Views\Components\SelectVersion;
+use LaravelBricks\Telling\Http\Livewire\ShowDiffVersion;
+use LaravelBricks\Telling\Http\Livewire\ShowStoryTelling;
+use LaravelBricks\Telling\Views\Components\SelectVersion;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Collection;

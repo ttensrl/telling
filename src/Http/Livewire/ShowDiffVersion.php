@@ -30,11 +30,11 @@
  * SOFTWARE.
  */
 
-namespace TtenSrl\Telling\Http\Livewire;
+namespace LaravelBricks\Telling\Http\Livewire;
 
 use App\Models\Post;
 use Livewire\Component;
-use TtenSrl\Telling\Models\Version;
+use LaravelBricks\Telling\Models\Version;
 
 class ShowDiffVersion extends Component
 {

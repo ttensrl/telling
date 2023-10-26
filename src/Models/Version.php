@@ -1,5 +1,5 @@
 <?php
-namespace TtenSrl\Telling\Models;
+namespace LaravelBricks\Telling\Models;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Database\Eloquent\Model as Eloquent;
@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Version
- * @package TtenSrl\Telling
+ * @package LaravelBricks\Telling
  */
 class Version extends Eloquent
 {
